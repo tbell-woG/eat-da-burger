@@ -1,0 +1,25 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "A restaurant app that lets users input the names of burgers they'd like to eat and then alllow them to devour the burger. # Video Link: https://putlinkhere # ## Table of Contents * [Project Description](#description) * [Built with](#installation) * [Contributing](#contributing) * [Liscensing](#liscensing) * [Contact](#contact)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbell-woG/eat-da-burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbell-woG/eat-da-burger/issues"
+  },
+  "homepage": "https://github.com/tbell-woG/eat-da-burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}

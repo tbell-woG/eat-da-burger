@@ -1,5 +1,5 @@
 // These require the dependencies
-var express = erquire("express");
+var express = require("express");
 var bodyParser = require("body-parser")
 
 // These are the variables for the server and express

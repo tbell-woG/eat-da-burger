@@ -1,7 +1,9 @@
 # Eat Da Burger App
  A restaurant app that lets users input the names of burgers they'd like to eat and then alllow them to devour the burger.
 #
-Video Link: https://putlinkhere
+<img src="https://i.ibb.co/cvrC4YH/Eat-Da-Burger.png" alt="Eat-Da-Burger" border="0">
+
+Website Deployment Link: https://tbell-wog.github.io/eat-da-burger/
 #
 ## Table of Contents
 * [Project Description](#description)
@@ -14,9 +16,10 @@ Video Link: https://putlinkhere
 # Project Description
 There are some many types of burgers out there in this world and everyone, well almost everyone, likes to eat a good old fashioned hamburger. But sometimes a person may eat so many different kinds of burgers that they forget which ones that they have tried. Therefore, the Eat Da Burger App will help users to keep of the burgers they have eaten by allowing them to input the names of burgers they'd like to eat. Whenever the user submits a burger's name, the app will display the burger on the left side of the page in the waiting area. Each burger in the waiting area will have a "Devour it!" button next to it. When the user clicks it, the burger will be devoured and move to the right side of the page. The app will store every burger in a database, whether it is devoured or not. This application was created using HTML, CSS, Javascript, Node, Express, MySQL, Handlebars, and ORM.
 #
-Click on the image below to watch the video.
 
-[![Watch the video](./assets/employee-tracker.png)](https://putlinkhere)
+<img src="https://i.ibb.co/L8L9y6V/Screen-Shot-2021-01-13-at-4-59-21-PM.png" alt="Screen-Shot-2021-01-13-at-4-59-21-PM" border="0">
+<img src="https://i.ibb.co/P68M6Fz/Screen-Shot-2021-01-13-at-4-59-48-PM.png" alt="Screen-Shot-2021-01-13-at-4-59-48-PM" border="0">
+
 
 # Built With
 The Employee Tracker command-line application was created with these coding languages:

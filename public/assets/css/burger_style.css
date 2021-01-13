@@ -1,5 +1,17 @@
+.container-fluid {
+    background: #a8b60e;
+    border-radius: 0px;
+    padding: 40px;
+}
+
 .jumbotron {
-    background-image: url("/assets/img/eat_da_burger1.png");
+    border: 10px solid #003366;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url("/assets/img/eat_da_burger2.png");
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,7 +19,8 @@
 }
 
 .jumbotron > h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive;
+    padding-bottom: 3%;
 }
 
 #newburger {
@@ -19,7 +32,7 @@
 }
 
 #lefthead {
-    background-color: #5cb85c;
+    background-color: rgb(232, 181, 13);
     color: white;
     text-align: center;
     font-size: 1.2em;
@@ -30,7 +43,7 @@
 }
 
 #righthead {
-    background-color: #f0ad4e;
+    background-color: rgb(232, 181, 13);
     color: white;
     text-align: center;
     font-size: 1.2em;

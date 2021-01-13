@@ -6,14 +6,14 @@ var burger = {
     // This displays all the burgers in the data base
     selectAll: function(cb) {
         orm.selectAll("burgers", function(res) {
-            cd(res);
+            cb(res);
         });
     },
 
     // This adds a new burger to the database
-    insertOne: function(cols, vals, cd) {
+    insertOne: function(cols, vals, cb) {
         orm.insertOne("burgers", cols, vals, function(res) {
-            cd(res);
+            cb(res);
         });
     },
 

@@ -1,5 +1,5 @@
 // This is the function that has both of the on click functions & waits for the DOM to be loaded
-$(function () {
+$(function() {
 
     // This adds a new burger
     $(".create-form").on("submit", function(event) {
@@ -14,9 +14,8 @@ $(function () {
         $.ajax("/api/burgers", {
             type: "POST",
             data: newBurger
-        })
-        .then(function() {
-            console.log("Added a new burger");
+        }).then(function() {
+            console.log("Added new burger");
             // This reloads the page to display the updated burger list
             location.reload();
         });
@@ -31,7 +30,7 @@ $(function () {
         };
 
         // This sends the PUT request
-        $ajax("/api/burgers/" + id, {
+        $.ajax("/api/burgers/" + id, {
             type: "PUT",
             data: devouredState
         })
@@ -50,8 +49,7 @@ $(function () {
         $.ajax({
             type: "DELETE",
             url: "/api/burgers/" + id
-        })
-        .then(location.reload());
+        }).then(location.reload());
     });
 
 })

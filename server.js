@@ -1,6 +1,6 @@
 // These require the dependencies
 var express = require("express");
-var bodyParser = require("body-parser")
+var bodyParser = require("body-parser");
 
 // These are the variables for the server and express
 var app = express();

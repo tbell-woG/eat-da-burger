@@ -1,7 +1,7 @@
 # Eat Da Burger App
  A restaurant app that lets users input the names of burgers they'd like to eat and then alllow them to devour the burger.
 #
-<img src="https://i.ibb.co/cvrC4YH/Eat-Da-Burger.png" alt="Eat-Da-Burger" border="0">
+<img src="https://i.ibb.co/cvrC4YH/Eat-Da-Burger.png" alt="eat-da-burger" border="0">
 
 Website Deployment Link: https://eat-da-burger-tbell.herokuapp.com/
 #

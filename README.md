@@ -3,7 +3,7 @@
 #
 <img src="https://i.ibb.co/cvrC4YH/Eat-Da-Burger.png" alt="Eat-Da-Burger" border="0">
 
-Website Deployment Link: https://tbell-wog.github.io/eat-da-burger/
+Website Deployment Link: https://eat-da-burger-tbell.herokuapp.com/
 #
 ## Table of Contents
 * [Project Description](#description)
